@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MedicineShopApplication.DLL\MedicineShopApplication.DLL.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CSharpFunctionalExtensions" Version="3.0.0" />
+      <PackageReference Include="FluentValidation" Version="11.10.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Service\" />
+      <Folder Include="Validation\" />
+      <Folder Include="ViewModel\Response\" />
+    </ItemGroup>
+
+</Project>
